@@ -1,4 +1,4 @@
-package org.trobert
+package com.pagero
 
 import com.intellij.psi.PsiClass
 import org.jetbrains.plugins.scala.lang.macros.evaluator.{MacroImpl, MacroInvocationContext, ScalaMacroExpandable}
