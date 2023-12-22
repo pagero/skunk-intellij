@@ -1,7 +1,7 @@
 <intellij-compat>
     <name>Skunk support</name>
     <description>This provides type inference for skunk macros</description>
-    <version>0.2</version>
+    <version>3.0</version>
     <vendor>Pagero</vendor>
     <ideaVersion since-build="2018.1.0" until-build="2024.3">
         <extension interface="org.jetbrains.plugins.scala.lang.macros.evaluator.ScalaMacroExpandable"

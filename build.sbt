@@ -1,6 +1,6 @@
 name         := "skunk-intellij"
 organization := "com.pagero"
-version      := "0.2"
+version      := "3.0"
 
 scalaVersion := "3.3.1"
 
