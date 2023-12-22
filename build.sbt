@@ -1,17 +1,17 @@
 name         := "skunk-intellij"
 organization := "com.pagero"
-version      := "0.1.0"
+version      := "0.2"
 
-scalaVersion := "2.13.10"
+scalaVersion := "3.3.1"
 
 Global / intellijAttachSources := true
-ThisBuild / intellijBuild      := "2022.3"
+ThisBuild / intellijBuild      := "233.13135.103"
 ThisBuild / versionScheme      := Some("early-semver")
 
 enablePlugins(SbtIdeaPlugin)
 intellijPlugins += "org.intellij.scala".toPlugin
 
-import ReleaseTransformations._
+import ReleaseTransformations.*
 
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,              // : ReleaseStep
