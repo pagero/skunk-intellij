@@ -8,7 +8,7 @@ import org.jetbrains.plugins.scala.lang.psi.api.statements.ScFunction
 import org.jetbrains.plugins.scala.lang.psi.impl.ScalaPsiElementFactory
 import org.jetbrains.plugins.scala.lang.psi.types.api.designator.ScDesignatorType
 import org.jetbrains.plugins.scala.lang.psi.types.api.{Any, Nothing}
-import org.jetbrains.plugins.scala.lang.psi.types.{ScExistentialArgument, ScExistentialType, ScParameterizedType, ScType}
+import org.jetbrains.plugins.scala.lang.psi.types.{ScExistentialArgument, ScExistentialType, ScParameterizedType, ScType, ScTypeExt}
 import org.jetbrains.plugins.scala.project.ProjectContext
 
 class SkunkSupport extends ScalaMacroExpandable {

@@ -1,9 +1,9 @@
 <intellij-compat>
     <name>Skunk support</name>
     <description>This provides type inference for skunk macros</description>
-    <version>0.1.0</version>
+    <version>0.2</version>
     <vendor>Pagero</vendor>
-    <ideaVersion since-build="2018.1.0" until-build="2023.3">
+    <ideaVersion since-build="2018.1.0" until-build="2024.3">
         <extension interface="org.jetbrains.plugins.scala.lang.macros.evaluator.ScalaMacroExpandable"
                    implementation="com.pagero.SkunkSupport">
             <description>Support for sql interpolator macro</description>
